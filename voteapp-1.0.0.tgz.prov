@@ -3,6 +3,23 @@ Hash: SHA512
 
 apiVersion: v2
 appVersion: 1.0.0
+dependencies:
+- - alias: postgresapp
+  name: postgresapp
+  repository: https://aravindjordank8s.github.io/VotingAppHelmCharts/
+  version: 1.0.0
+- - alias: redisapp
+  name: redisapp
+  repository: https://aravindjordank8s.github.io/VotingAppHelmCharts/
+  version: 1.0.0
+- - alias: workerapp
+  name: workerapp
+  repository: https://aravindjordank8s.github.io/VotingAppHelmCharts/
+  version: 1.0.0
+- - alias: resultapp
+  name: resultapp
+  repository: https://aravindjordank8s.github.io/VotingAppHelmCharts/
+  version: 1.0.0
 description: A Helm chart for Kubernetes
 name: voteapp
 type: application
@@ -10,17 +27,17 @@ version: 1.0.0
 
 ...
 files:
-  voteapp-1.0.0.tgz: sha256:6adc344c8820600addd6318a8df2b012be93302aa08656750727c3378ffabb9c
+  voteapp-1.0.0.tgz: sha256:1347e851e482cef810e1f8bf9c937fa0b10a3cc0a6b9b1fc1943c160d78e021b
 -----BEGIN PGP SIGNATURE-----
 
-wsDcBAEBCgAQBQJmDlcbCRBjkwqtuZJ7VwAApWAMAG0H46oT1A9SbCqUlLTVhdXO
-h0zhoaFsgT44NYPxaSHHJUudoYmplf3x3JlSdPKltOsKc01YfWkVLm9uoOJuJADs
-JGuE1aKaIyIb+Gn8bBECMw3SPociLd36D7nrUfxBp98Sag7+3Td0MDPNhiJxQbxt
-QULZ2lV0m40DdK25E1AmwCdILHBqNP++FfrjGkZtS4DAbX+AO96ROYlJNX9by/8n
-K1xWyrY+EZG+Nhv/yhbAlGJpwEBtRHed+oYBZWeKP4Ic1RNewfdhdYNhoo30XCp5
-XuCqvOG50FDegkelCzshbqcBzcYXomSfuBHIbJ+dFrn7qBZW+ScabCxT/eHQAtVz
-txNVYJKNXanq7pvNTNVBgtKaA560U+r0DCAHAER857JuBFT+XB6agVsQtrhPeXUn
-tccaDhzrvIFPv2HVUHG7djuiCcybtdSQ7ZoNoF/zigoip1mpScDkH3GOwnhX4uxj
-CGyx7fDaMFQ4bL7W2d8DelmkV8vbj/jchkvWCZM6Qg==
-=OJxa
+wsDcBAEBCgAQBQJmDmE7CRBjkwqtuZJ7VwAAk0EMAJXchzEahQ4OI70thIGgdBDk
+30qh0ztNPC9TMPuZWlnxFxyVP0PKFyW8wNd3zrICuzNVZt8rGc1tlT9ECSkLHM5u
+Xztx2oGHQuBsDwMmY+AFNPYfhQpE4GS5jzwXVBQLuWApgjMTShDn/nAn9p+F6ogj
+k4jWF+lS5KBhevGPOtDA2aaLvVWH0ngXx8p/xASEd1DZv9EcUzHyZzu2ygQhPGa2
+mhIlGkLKmOmG1+R4ub5giVOnEEbguVmnLgJOhBTpvoFNblByZDuxAbWB/TIsqlel
+oH5Zngve+hfPAokKDDtmpeNdUN9EJYB69zO97Tck0qUCYaYjVTQc11IfMg1BTk1I
+GiTEEuD+yH11Lfz+Dqv/2WqukNi06lhYtD3GWfxjtGZav0MxmYIr9PgtYaWImsH8
+JXadHnOhPAXeTMh+5p/rHY2V5G03TD3XicCmj73WiYkrNkJxROfPLidoiP+6YCY+
+VXKNvtzcVGXsafKFdddvv866khFsUmHRFOcEfha0Eg==
+=pRl0
 -----END PGP SIGNATURE-----
