@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.0.0
+description: A Helm chart for Kubernetes
+name: workerapp
+type: application
+version: 1.0.0
+
+...
+files:
+  workerapp-1.0.0.tgz: sha256:0f706ffb17eca30a980375ceecc5beeee6ee7cb5314248c4d3e2723af41015f3
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJmDlczCRBjkwqtuZJ7VwAAk/sMAJKiNwIXT/8Eb2vX3SYKJ/Y1
+T2JI1joej8dKbjmDnu4JFFQ3BWQiGO19D7fTe31DE/DbT7AGVzxiu9BaxNTmN+2h
+ncTHpefBTIlKQQchk60KB3b9Srauy2PJrXmE2FPyz2rKuYKQIjZ+w8pr4aEbGKDK
+tDpXoPneGlBBdBojhoW5nfQzPhHCDN6YHhbpzpnNwOF1syPRBI9sYRt3bXKiNAlL
+hvKqNQVRUFQRB8eaWYH0bz1VotFH2/eTdWadIY1/oe4eM9JAKX7/KuVYWSx+p1Ym
+r1GGtfealYjBzZLGdnh2e7zArmr6HPdOuZGg5RT8z5kVI09P5YmPYUC0wzASZpGs
+WryxHdYoXUE4mkR2Nw4n4wFYEgLN5ElgKf0oRERC0AhiVC7VpUP/6Gjc4WqLSvNg
+vwGYr8vN7IlF1MXhs61caG6WOxoBLFYq1/xmcfWRR/quwUicp4Dj65J+4QeVOerV
+aGDOtVa2NrQvMEyb51mo7id73XBxn8P1OmJ1nBIXLQ==
+=rwrw
+-----END PGP SIGNATURE-----

@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.0.0
+description: A Helm chart for Kubernetes
+name: postgresapp
+type: application
+version: 1.0.0
+
+...
+files:
+  postgresapp-1.0.0.tgz: sha256:f05614fc5075fc5030eff12e9fabb7b9a8829a5085eebd4ff673b72806f7f54e
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJmDkqlCRBjkwqtuZJ7VwAAfkMMADpdtR3bXvD0OhmMzBE3qUv+
+CjB0XbpLtIDiED4AEeIMFiHV6F8ktxvv8QWoxF/pAxKQuTywrD9PSS78XDLGvGtP
+dx9KVBED5WuwKPFQfRAg6Uk2CyoSJLOCAHKW+76hUbbhiJPNh1/tkmu5I0i9WyN4
+44+igKKVWV67KKlEvo2CYyNZRrT/dK03rQm5yhuy1DW+SGxBqULB3RLCYmTsTZLW
+z4IRo1vCihuH8jMON6F+7R0KOdG7Ze/9jkEeeD5ZmvjYEQFPpp+dknTJz+nZthd7
+OCJ77rwQwhcHF8uWJ5H0SgAokVwcBjhhpc4Vqc5infpgKAdfbRrbdIt7Po3kA2sT
+n/Oe+EoGJq0CyCElBwuh3fHRt13zDlpbLFbUuJdmdI462J8RkylvMnlq2Udl4hbS
+VhpKzi5z5vzSTm2bziGOejZEU37VGupLsj6cEmEYruKnyGDSBShnU4RIkB+6RBm5
+bqaLxnfAe5Gfu9G4dKoI0lFjq9bBosdD5+8NMOpY9Q==
+=MAz+
+-----END PGP SIGNATURE-----
